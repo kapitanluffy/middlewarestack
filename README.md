@@ -47,3 +47,8 @@ $stack = new MiddlewareStack(array(
 $request = ServerRequestFactory::fromGlobals();
 $response = $stack->handle($request);
 ```
+
+###### Middlewares
+
+You can find a list of middlewares [here](https://github.com/middlewares) or implement your own
+by implementing the [MiddlewareInterface](https://github.com/http-interop/http-middleware/blob/master/src/MiddlewareInterface.php)
