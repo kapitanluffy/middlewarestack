@@ -1,13 +1,13 @@
 <?php
 
-namespace kapitanluffy\middleware;
+namespace kapitanluffy\middlewarestack;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Interop\Http\Server\RequestHandlerInterface;
 use Interop\Http\Server\MiddlewareInterface;
-use kapitanluffy\middleware\MiddlewareException;
-use kapitanluffy\middleware\MiddlewareStackInterface;
+use kapitanluffy\middlewarestack\MiddlewareException;
+use kapitanluffy\middlewarestack\MiddlewareStackInterface;
 
 class MiddlewareStack implements MiddlewareStackInterface
 {

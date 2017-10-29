@@ -1,6 +1,6 @@
 <?php
 
-namespace kapitanluffy\middleware;
+namespace kapitanluffy\middlewarestack;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Interop\Http\Server\RequestHandlerInterface;

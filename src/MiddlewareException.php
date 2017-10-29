@@ -1,5 +1,5 @@
 <?php
 
-namespace kapitanluffy\middleware;
+namespace kapitanluffy\middlewarestack;
 
 class MiddlewareException extends \Exception {}

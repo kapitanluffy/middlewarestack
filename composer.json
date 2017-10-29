@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "kapitanluffy\\middleware\\": "src/"
+            "kapitanluffy\\middlewarestack\\": "src/"
         }
     },
     "require": {
