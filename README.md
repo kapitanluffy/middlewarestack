@@ -1,6 +1,11 @@
 # Middleware Stack
 
-Implementing PSR-15 Middlewares in a single class.
+Implementing [PSR-15](https://github.com/php-fig/fig-standards/tree/master/proposed/http-middleware) Middlewares in a single class.
+
+###### Why?
+
+As defined in the proposal, middlewares "processes" a request and returns a response. Similarly, RequestHandlers "handles" a request and returns a response.
+The idea of this package is simplify the goal the interfaces provided by PSR-15.
 
 ###### Install
 
