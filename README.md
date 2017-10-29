@@ -2,7 +2,13 @@
 
 Implementing PSR-15 Middlewares in a single class.
 
-###### How to Use
+###### Install
+
+```
+composer require kapitanluffy/middlewarestack
+```
+
+###### Usage
 
 ```php
 use kapitanluffy\middleware\MiddlewareStack;
